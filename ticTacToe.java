@@ -9,8 +9,6 @@ public class ticTacToe {
     static ArrayList<Integer> cpuPositions = new ArrayList<Integer>();
     public static void main(String[]args) {
 
-        
-
         int playerPosition = 0;
 
         char [][] gameBoard = {{' ','|',' ','|',' '},

@@ -19,9 +19,6 @@ public class ticTacToe {
         {'-','+','-','+','-'},
         {' ','|',' ','|',' '}};
         
-
-        
-
         while(true){
 
         Scanner keyboard = new Scanner(System.in);
@@ -41,7 +38,6 @@ public class ticTacToe {
             System.out.println(result);
             break;
         }
-
 
         Random rand = new Random();
         int cpuPosition = rand.nextInt(9) + 1;
